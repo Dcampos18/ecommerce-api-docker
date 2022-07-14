@@ -1,0 +1,39 @@
+{
+  "name": "ecommerce-api-docker",
+  "version": "1.0.0",
+  "description": "API Restful using NodeJS and deploy it using Docker images & containers",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dcampos18/ecommerce-api-docker.git"
+  },
+  "keywords": [
+    "nodejs",
+    "docker",
+    "api",
+    "restful",
+    "ecommerce"
+  ],
+  "author": "Daniel Campos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dcampos18/ecommerce-api-docker/issues"
+  },
+  "homepage": "https://github.com/Dcampos18/ecommerce-api-docker#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
